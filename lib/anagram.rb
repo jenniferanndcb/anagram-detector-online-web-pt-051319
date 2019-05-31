@@ -10,7 +10,8 @@ class Anagram
   def match(arr)
     anagram = []
     
-      arr.each do |words| words == 
+      arr.each do |words| 
+        if words == 
     end
   end
   
