@@ -11,7 +11,8 @@ class Anagram
     anagram = []
     
       arr.each do |words| 
-        if words.split("").sort ==  
+        if words.split("").sort == word.split("").sort
+          a
     end
   end
   
