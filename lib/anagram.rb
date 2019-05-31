@@ -12,7 +12,9 @@ class Anagram
     
       arr.each do |words| 
         if words.split("").sort == word.split("").sort
-          a
+          anagram << words
+        end
+      end
     end
   end
   
