@@ -8,7 +8,7 @@ class Anagram
   end
   
   def match(arr)
-      arr.split(/[a-z/)collect do |words| words == @word ? word : arr(nil)
+      arr.split(/[a-z]/).collect do |words| words == @word.split(/[a-z]/) ? word.join : arr(nil)
     end
   end
   
