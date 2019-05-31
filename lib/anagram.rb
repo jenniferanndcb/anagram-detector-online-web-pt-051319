@@ -10,8 +10,9 @@ class Anagram
   def match(arr)
     if arr.collect do |words| words == @word
       words
-    else
-      arr(nil)
+      else
+        arr(nil)
+      end
     end
   end
   
