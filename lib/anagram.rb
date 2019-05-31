@@ -12,6 +12,7 @@ class Anagram
       words
     else
       arr(nil)
+    end
   end
   
   
