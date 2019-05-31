@@ -10,7 +10,7 @@ class Anagram
   def match(arr)
     anagram = []
     
-      arr.split(/[a-z]/).collect do |words| words == @word.split(/[a-z]/) ? word.join : arr(nil)
+      arr.each do |words| words == 
     end
   end
   
